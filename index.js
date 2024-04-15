@@ -16,5 +16,5 @@ app.get('/enjoy',(req,res)=>{
     res.send('<h1>You Are Enjoy Your Day.</h1>')
 })
 app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening on port ${process.env.PORT}`)
 })
